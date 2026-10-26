@@ -75,7 +75,7 @@ html, body, [class*="css"], .stMarkdown, .stText {{ font-family: {FONT}; }}
 .hero h1 {{ font-family: 'Fraunces', Georgia, serif; font-weight: 400; font-size: clamp(1.7rem, 3.4vw, 2.6rem);
   line-height: 1.12; margin: .35rem 0 .6rem; color: {INK}; letter-spacing: -.01em; }}
 .hero h1 .ipm {{ color: {IPM_C}; }} .hero h1 .p2 {{ color: {P2_C}; }}
-.hero p {{ font-size: 1rem; line-height: 1.6; max-width: 78ch; margin: 0; color: {INK}; }}
+.hero p {{ font-size: 1rem; line-height: 1.6; max-width: none; margin: 0; color: {INK}; text-align: justify; }}
 
 .kpi {{ position: relative; background: #fff; border: 1px solid {GRID}; border-radius: 16px;
   padding: 18px 18px 16px 22px; height: 100%; min-height: 182px; overflow: hidden;
